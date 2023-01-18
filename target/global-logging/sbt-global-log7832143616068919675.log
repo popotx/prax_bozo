@@ -1,0 +1,143 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(early(addPluginSbtFile="""C:\Users\Patrik\AppData\Local\Temp\idea.sbt"""), None, None)
+[debug] > Exec(addPluginSbtFile="""C:\Users\Patrik\AppData\Local\Temp\idea.sbt""", None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.8.2 (Oracle Corporation Java 19.0.2)
+[debug]       Load.loadUnit: plugins took 124.4823ms
+[debug]       Load.loadUnit: defsScala took 0.3886ms
+[debug] [Loading] Scanning directory C:\Users\Patrik\.sbt\1.0\plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\Patrik\.sbt\1.0\plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 26.8185 ms
+[debug]           Load.resolveProject(global-plugins) took 57.62ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: C:\Users\Patrik\.sbt\1.0\plugins, plugins: List(<none>))) took 109.5761ms
+[debug] [Loading] Done in C:\Users\Patrik\.sbt\1.0\plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 137.1031ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.4389ms
+[debug]     Load.loadUnit(file:/C:/Users/Patrik/.sbt/1.0/plugins/, ...) took 289.6145ms
+[debug]   Load.apply: load took 621.6883ms
+[debug]   Load.apply: resolveProjects took 8.1698ms
+[debug]   Load.apply: finalTransforms took 77.91ms
+[debug]   Load.apply: config.delegates took 13.5226ms
+[debug]   Load.apply: Def.make(settings)... took 1242.392ms
+[debug]   Load.apply: structureIndex took 387.7074ms
+[debug]   Load.apply: mkStreams took 5.2772ms
+[info] loading global plugins from C:\Users\Patrik\.sbt\1.0\plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 6265.5564ms
+[debug]           Load.loadUnit: plugins took 65.6532ms
+[debug]           Load.loadUnit: defsScala took 0.0059ms
+[debug] [Loading] Scanning directory C:\Users\Patrik\IdeaProjects\prax_rgbt\project
+[debug]             Load.loadUnit: mkEval took 5.383ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\Patrik\IdeaProjects\prax_rgbt\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 7.4069 ms
+[info] loading settings for project prax_rgbt-build from idea.sbt ...
+[debug]               Load.resolveProject(prax_rgbt-build) took 4.1588ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id prax_rgbt-build, base: C:\Users\Patrik\IdeaProjects\prax_rgbt\project, plugins: List(<none>))) took 12.3009ms
+[debug] [Loading] Done in C:\Users\Patrik\IdeaProjects\prax_rgbt\project, returning: (prax_rgbt-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 5788.2186ms
+[debug]           Load.loadUnit: cleanEvalClasses took 8.8719ms
+[debug]         Load.loadUnit(file:/C:/Users/Patrik/IdeaProjects/prax_rgbt/project/, ...) took 5863.8562ms
+[debug]       Load.apply: load took 5866.861ms
+[debug]       Load.apply: resolveProjects took 0.3574ms
+[debug]       Load.apply: finalTransforms took 9.7778ms
+[debug]       Load.apply: config.delegates took 0.3741ms
+[debug]       Load.apply: Def.make(settings)... took 267.1659ms
+[debug]       Load.apply: structureIndex took 62.0914ms
+[debug]       Load.apply: mkStreams took 0.0027ms
+[info] loading project definition from C:\Users\Patrik\IdeaProjects\prax_rgbt\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[warn] Unrecognized repository Scala Plugin Bundled Repository, ignoring it
+[warn] Unrecognized repository Scala Plugin Bundled Repository, ignoring it
+[debug]     Load.loadUnit: plugins took 8414.1476ms
+[debug]     Load.loadUnit: defsScala took 0.0063ms
+[debug] [Loading] Scanning directory C:\Users\Patrik\IdeaProjects\prax_rgbt
+[debug]       Load.loadUnit: mkEval took 0.3231ms
+[debug] [Loading] Found root project root w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.StructurePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.IdeaShellPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.StructurePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.IdeaShellPlugin)))
+[debug] Clause(And(Set(Atom(sbt.plugins.CorePlugin), Atom(sbt.plugins.JvmPlugin))),Set(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.SemanticdbPlugin,org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin,sbt.plugins.JUnitXmlReportPlugin,org.jetbrains.sbt.IdeaShellPlugin,org.jetbrains.sbt.StructurePlugin,sbt.plugins.MiniDependencyTreePlugin)
+[debug] Plugins.deducer#function took 2.2463 ms
+[info] loading settings for project root from build.sbt ...
+[debug]         Load.resolveProject(root) took 63.2443ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id root, base: C:\Users\Patrik\IdeaProjects\prax_rgbt, plugins: List(<none>))) took 68.292ms
+[debug] [Loading] Done in C:\Users\Patrik\IdeaProjects\prax_rgbt, returning: (root)
+[debug]     Load.loadUnit: loadedProjectsRaw took 1071.0208ms
+[debug]     Load.loadUnit: cleanEvalClasses took 82.9488ms
+[debug]   Load.loadUnit(file:/C:/Users/Patrik/IdeaProjects/prax_rgbt/, ...) took 9577.2464ms
+[debug] Load.apply: load took 9579.8309ms
+[debug] Load.apply: resolveProjects took 0.1817ms
+[debug] Load.apply: finalTransforms took 105.5366ms
+[debug] Load.apply: config.delegates took 0.4102ms
+[debug] Load.apply: Def.make(settings)... took 230.5204ms
+[debug] Load.apply: structureIndex took 43.7429ms
+[debug] Load.apply: mkStreams took 0.0051ms
+[info] set current project to prax_rgbt (in build file:/C:/Users/Patrik/IdeaProjects/prax_rgbt/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(; set ideaPort in Global := 54017 ; idea-shell, None, None)
+[debug] > Exec(set ideaPort in Global := 54017, None, None)
+[info] Defining Global / ideaPort
+[info] The new value will be used by Compile / compile, Test / compile
+[debug] Defining 
+[debug] 	Global / ideaPort
+[debug] 
+[debug] The new value will be used by 
+[debug] 	Compile / compile
+[debug] 	Test / compile
+[info] Reapplying settings...
+[info] set current project to prax_rgbt (in build file:/C:/Users/Patrik/IdeaProjects/prax_rgbt/)
+[debug] > Exec(idea-shell, None, None)

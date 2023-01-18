@@ -1,0 +1,40 @@
+[debug] > Exec(run, None, None)
+[debug] Evaluating tasks: Compile / run
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\Patrik\IdeaProjects\prax_rgbt\target\scala-2.13\classes ...
+[info] done compiling
+[error] java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
+[error] 	at Main$.$anonfun$pixels$1(Main.scala:20)
+[error] 	at scala.collection.immutable.List.map(List.scala:246)
+[error] 	at Main$.delayedEndpoint$Main$1(Main.scala:19)
+[error] 	at Main$delayedInit$body.apply(Main.scala:1)
+[error] 	at scala.Function0.apply$mcV$sp(Function0.scala:42)
+[error] 	at scala.Function0.apply$mcV$sp$(Function0.scala:42)
+[error] 	at scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:17)
+[error] 	at scala.App.$anonfun$main$1(App.scala:98)
+[error] 	at scala.App.$anonfun$main$1$adapted(App.scala:98)
+[error] 	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:575)
+[error] 	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:573)
+[error] 	at scala.collection.AbstractIterable.foreach(Iterable.scala:933)
+[error] 	at scala.App.main(App.scala:98)
+[error] 	at scala.App.main$(App.scala:96)
+[error] 	at Main$.main(Main.scala:1)
+[error] 	at Main.main(Main.scala)
+[error] 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+[error] 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+[error] 	at sbt.Run.invokeMain(Run.scala:143)
+[error] 	at sbt.Run.execute$1(Run.scala:93)
+[error] 	at sbt.Run.$anonfun$runWithLoader$5(Run.scala:120)
+[error] 	at sbt.Run$.executeSuccess(Run.scala:186)
+[error] 	at sbt.Run.runWithLoader(Run.scala:120)
+[error] 	at sbt.Defaults$.$anonfun$bgRunTask$6(Defaults.scala:1980)
+[error] 	at sbt.Defaults$.$anonfun$termWrapper$2(Defaults.scala:1919)
+[error] 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+[error] 	at scala.util.Try$.apply(Try.scala:213)
+[error] 	at sbt.internal.BackgroundThreadPool$BackgroundRunnable.run(DefaultBackgroundJobService.scala:366)
+[error] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+[error] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+[error] 	at java.base/java.lang.Thread.run(Thread.java:1589)
+[error] (Compile / run) java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
+[error] Total time: 3 s, completed 18. 1. 2023, 22:41:17
+[debug] > Exec(idea-shell, None, None)
